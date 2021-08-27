@@ -1,6 +1,6 @@
-import React, { useStaet } from 'react';
+import React, { useState } from 'react';
 import { StatusBar, Image } from 'react-native';
-import { AppLoading } from 'expo';
+import AppLoading from 'expo-app-loading';
 import { Asset } from 'expo-asset';
 import * as Font from 'expo-font';
 import { ThemeProvider } from 'styled-components/native';
@@ -39,4 +39,3 @@ const App = () => {
 };
 
 export default App;
-  
